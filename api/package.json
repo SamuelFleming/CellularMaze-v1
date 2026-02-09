@@ -1,7 +1,6 @@
 {
-  "name": "cellularmazes",
+  "name": "api",
   "version": "1.0.0",
-  "description": "A small simple project to implement and deploy is short time. An interface for where users can generate and solve cellular mazes.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -9,7 +8,12 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.6",
+    "express": "^5.2.1"
+  },
   "devDependencies": {
-    "concurrently": "^9.2.1"
+    "nodemon": "^3.1.11"
   }
 }
